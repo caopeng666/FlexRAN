@@ -33,6 +33,17 @@ Each test type has a bunch of test cases (with unique testNum) and these are def
 
 Real-Time Host Installation
 ============
+To run the L1 PHY application, you should configure the BIOS and OS of the server. Take Intel Skylake SP/Cascade Lake SP server as an example here.
+BIOS configuration
+  Advanced -> Power -> CPU P State Control
+                                            Enhanced Intel SpeedStep (R) Tech : Enabled
+                                            Intel Configurable TDP : Enabled
+                                            Configurable TDP Level : Level 2
+                                            Intel(R) Turbo Boost Technology : Enabled
+                                            Energey Efficient Turbo : Disabled
+  Advanced -> Power & Performance -> CPU Power and Performance Policy : Performance
+  Advanced -> Power & Performance -> Uncore Power Management
+                                      
 
 Build lib
 ===========
