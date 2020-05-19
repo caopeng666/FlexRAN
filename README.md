@@ -33,6 +33,7 @@ Each test type has a bunch of test cases (with unique testNum) and these are def
 
 Real-Time Host Installation
 ============
+BIOS
 
 Build lib
 ===========
